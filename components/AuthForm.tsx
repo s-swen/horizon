@@ -20,7 +20,7 @@ import {z} from "zod"
 import { authFormSchema } from '@/lib/utils'
 import CustomInput from './CustomInput'
 import { Loader2 } from 'lucide-react'
-import { signIn, signUp } from '@/lib/actions/user.actions'
+import { getLoggedInUser, signIn, signUp } from '@/lib/actions/user.actions'
 import { useRouter } from 'next/navigation'
 
 
